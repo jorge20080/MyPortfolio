@@ -12,8 +12,8 @@ const SkillsList = ({title, skillsList}:Props) =>{
             <h3>{title}</h3>
             <ul>
                 {skillsList.map(skill=>{
-                    return <li> 
-                                <Tag key={skill.id} title={skill.name}/>
+                    return <li key={skill.id}> 
+                                <Tag title={skill.name}/>
                             </li>
                 })}
             </ul>

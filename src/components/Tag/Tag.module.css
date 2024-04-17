@@ -6,4 +6,8 @@
     border: none;
     background-color: white;
     border-top: 1px solid rgba(220, 20, 60, 0.8);
+    transition: transform 100ms ease-in-out;
+}
+.tag:hover{
+    transform: scale(1.2,1.2);
 }

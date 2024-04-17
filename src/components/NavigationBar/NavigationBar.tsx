@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from './NavigationBar.module.css';
 const NavigationBar = () =>{
-    const [showMenuContent, setShowMenuContent] = useState(false);
+    const [showMenuContent, setShowMenuContent] = useState(false);    
     return(
         <nav className={styles.nav_bar}>
             <ul className={styles.nav_social_links}>
@@ -48,24 +48,28 @@ const NavigationBar = () =>{
                             <NavLink 
                                 to="/" 
                                 className={({isActive}) => isActive? styles.active: undefined}
+                                onClick={()=>setShowMenuContent(prev=>!prev)}
                             >home.html</NavLink>
                         </li>
                         <li>
                             <NavLink 
                                 to="about" 
                                 className={({isActive}) => isActive? styles.active: undefined}
+                                onClick={()=>setShowMenuContent(prev=>!prev)}
                             >about.html</NavLink>
                         </li>
                         <li>
                             <NavLink 
                                 to="projects" 
                                 className={({isActive}) => isActive? styles.active: undefined}
+                                onClick={()=>setShowMenuContent(prev=>!prev)}
                             >projects.html</NavLink>
                         </li>
                         <li>
                             <NavLink 
                                 to="contact" 
                                 className={({isActive}) => isActive? styles.active: undefined}
+                                onClick={()=>setShowMenuContent(prev=>!prev)}
                             >contact.html</NavLink>
                         </li>
                     </ul>

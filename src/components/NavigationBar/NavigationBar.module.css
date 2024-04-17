@@ -3,9 +3,8 @@
     padding:0;
     margin: 0;
     background-color: whitesmoke;
-    transform: scale(0,1);
     transform-origin: left;
-    transition: all 250ms ease-in-out;
+    transition: all 200ms ease-in-out ;
     overflow: hidden;
     position: fixed;
     left:50px;
@@ -14,6 +13,7 @@
     min-width: 250px;
     /* resize: horizontal;
     overflow: auto; */
+    transform: translateX(-300px)
 }
 .nav_links li {
     padding: 5px 0px;
@@ -63,6 +63,7 @@ li ul{
     flex-direction: column;
     gap: 25px;
     list-style: none;
+    z-index: 102;
 }
 .nav_social_links a{
     cursor: pointer;
