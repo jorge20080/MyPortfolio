@@ -1,3 +1,13 @@
+:root{
+    --tab-background-color: white;
+    --tab-color: black;
+    --tab-empty-bar: gainsboro;
+}
+[data-theme="dark"]{
+    --tab-background-color: rgb(35, 35, 35);
+    --tab-color: gainsboro;
+    --tab-empty-bar: rgb(103, 103, 103);
+}
 .container{
     width: 100%;
     position: sticky;
@@ -6,16 +16,17 @@
 }
 .container section:nth-of-type(1){
     width: 100%;
-    background-color: whitesmoke;
+    background-color: var(--tab-empty-bar);
 }
 .container h1{
-    background-color: white;
+    background-color: var(--tab-background-color);
     padding: 7px 10px;
     padding-right: 30px;
     margin-top: 0;
     width: fit-content;
     position: relative;
     margin-bottom: 0;
+    color: var(--tab-color);
 }
 .container h1 span{
     font-style: italic;

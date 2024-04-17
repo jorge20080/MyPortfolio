@@ -12,7 +12,7 @@ const RootLayout = () =>{
             <WindowBar/>
             <div className={styles.container} data-theme={isDark? "dark": undefined}>
                 <NavigationBar/>
-                <main data-theme="">
+                <main>
                     <Outlet />
                     <Terminal/>
                 </main>

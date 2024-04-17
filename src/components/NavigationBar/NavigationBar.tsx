@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { useDarkModeContext } from "../../context/DarkModeContext";
 import styles from './NavigationBar.module.css';
+
 const NavigationBar = () =>{
     const [showMenuContent, setShowMenuContent] = useState(false);    
-    const {isDark} = useDarkModeContext();
     return(
         <nav className={styles.nav_bar}>
             <ul className={styles.nav_social_links}>
@@ -42,7 +41,7 @@ const NavigationBar = () =>{
                 </li> */}
             </ul>
             
-           <ul data-theme={isDark? "darl": undefined} className={`${styles.nav_links} ${showMenuContent && styles.show_nav_links}`}>
+           <ul className={`${styles.nav_links} ${showMenuContent && styles.show_nav_links}`}>
                 <li className={styles.explorer}>Explorer</li>
                 <li className={styles.folder}><span>JorgePortfolio</span>
                     <ul>

@@ -1,9 +1,24 @@
+:root{
+    --url-nav-background-color: white;
+    --url-nav-color: gray;
+}
+[data-theme="dark"]{
+    --url-nav-background-color: rgb(35,35,35);
+    --url-nav-color: gainsboro;
+}
 .container{
     display: flex;
+    align-items: center;
     gap: 20px;
-    padding:10px 20px;
-    background-color: white;
+    padding:5px 20px;
+    background-color: var(--url-nav-background-color);
 }
 .container span{
-    color: gray;
+    color: var(--url-nav-color);
+    background-color: rgba(255, 255, 255, 0.125);
+    width: 100%;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    padding-inline: 10px;
 }

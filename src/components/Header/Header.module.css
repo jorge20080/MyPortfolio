@@ -1,3 +1,9 @@
+:root{
+    --logo-border-color: rgba(0, 0, 0, 0.8);
+}
+[data-theme="dark"]{
+    --logo-border-color: rgba(255, 255, 255, 0.8);
+}
 .logo{
     padding: 5px 10px;
     margin: 20px;
@@ -9,7 +15,7 @@
     position: absolute;
     top:90px;
     padding:5px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--logo-border-color);
     padding-right: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -23,7 +29,7 @@
 }
 .dark{
     position: absolute;
-    top:90px;
+    top:100px;
     right:0;
     margin: 20px;
     width: 30px;

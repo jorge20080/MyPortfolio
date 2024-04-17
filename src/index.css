@@ -1,6 +1,11 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --background-color: white;
+  --background-block-joint: whitesmoke;
+}
+[data-theme="dark"]{
+  --background-color: rgba(0, 0, 0, 0.8);
+  --background-block-joint: rgb(45, 45, 45);
 }
 body{
   margin:0;
@@ -8,22 +13,11 @@ body{
 
 main{
   width: 100%;
-  transition: all 250ms ease-in-out;
   overflow-x: hidden;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 85px);
   overflow-y: auto;
   position: relative;
-  /* background: linear-gradient(to top right, lightblue 10%, white 10%, white 90%, lightblue 90%); */
-  
-
-  /* background-color: #e5e5f7;
-  opacity: 1;
-  background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, white 0.5px);
-  background-size: 20px 20px;
-  background-position: 0 0,10px 10px;
-
-  background-color: rgb(250, 250, 250); */
-  background-color: whitesmoke;
+  background-color: var(--background-block-joint);
   background-image: linear-gradient(335deg, var(--background-color) 23px, transparent 23px),
     linear-gradient(155deg, var(--background-color) 23px, transparent 23px),
     linear-gradient(335deg, var(--background-color) 23px, transparent 23px),
@@ -32,6 +26,3 @@ main{
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
-/* [data-theme="dark"]{
-  --background-color: rgba(0, 0, 0, 0.2);
-} */
