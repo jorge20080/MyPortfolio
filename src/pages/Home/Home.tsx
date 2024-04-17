@@ -34,10 +34,6 @@ const Home = () =>{
                                 loop:true
                             }}
                         />
-                        {/* <Typewriter text="My React App" delay={100} infinite /> */}
-                        {/* <p>
-                            A Frontend Web Developer building the Frontend Websites and Web Applications that leads to the success of the overall product
-                        </p> */}
                         <a href={pdf} target='_blank' >Resume</a>
                     </div>
                 </div>

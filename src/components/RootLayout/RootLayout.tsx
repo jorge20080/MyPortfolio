@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import NavigationBar from "../NavigationBar/NavigationBar";
+import Terminal from "../Terminal/Terminal";
 import WindowBar from "../WindowBar/WindowBar";
 import styles from './RootLayout.module.css';
 
@@ -9,7 +10,10 @@ const RootLayout = () =>{
             <WindowBar/>
             <div className={styles.container}>
                 <NavigationBar/>
-                <Outlet />
+                <main>
+                    <Outlet />
+                    <Terminal/>
+                </main>
             </div>
         </>
     )

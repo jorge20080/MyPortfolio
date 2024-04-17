@@ -9,8 +9,8 @@ main{
   width: 100%;
   transition: all 250ms ease-in-out;
   overflow-x: hidden;
-  height: calc(100vh - 30px);
-  overflow-y: scroll;
+  height: calc(100vh - 100px);
+  overflow-y: auto;
   position: relative;
   /* background: linear-gradient(to top right, lightblue 10%, white 10%, white 90%, lightblue 90%); */
   

@@ -7,6 +7,10 @@
     transform-origin: left;
     transition: all 250ms ease-in-out;
     overflow: hidden;
+    position: fixed;
+    left:50px;
+    z-index: 101;
+    height: 100vh;
 }
 .nav_links li {
     padding: 5px 20px;
@@ -25,7 +29,7 @@
     padding-right: 10px;
 }
 .show_nav_links{
-    width: 100%;
+    width: fit-content;
 }
 .nav_links a{
     text-decoration: none;
@@ -62,7 +66,7 @@ li ul{
     cursor: pointer;
 }
 .nav_bar{
-    height: calc(100vh - 30px);
+    height: calc(100vh - 35px);
     display: flex;
     margin: 0;
 }
@@ -76,5 +80,9 @@ li ul{
     }
     .menu{
         display: none;
+    }
+    .nav_links{
+        position:static;
+        height: auto;
     }
 }
