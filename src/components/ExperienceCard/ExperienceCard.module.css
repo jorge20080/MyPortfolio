@@ -16,6 +16,7 @@
     width: 220px;
     padding: 10px;
     background-color: white;
+    border: 2px solid rgba(47, 47, 245, 0.5);
 }
 .card ul li{
     margin: 10px;
