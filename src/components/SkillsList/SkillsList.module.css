@@ -19,17 +19,7 @@
     font-size: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 5px 5px rgb(177, 177, 177);
-}
-.container.skills .tech_skill{
-    border: 1px solid darkcyan;
-    color: darkcyan;
-}
-.container.skills .soft_skill{
-    border: 1px solid slateblue;
-    color: slateblue;
-}
-.container.skills .other_skill{
-    border: 1px solid crimson;
-    color: crimson;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-bottom: 1px solid slateblue;
 }
