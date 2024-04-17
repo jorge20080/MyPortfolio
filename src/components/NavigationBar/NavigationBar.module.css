@@ -1,19 +1,28 @@
+:root{
+    --background-color-nav-links: whitesmoke;
+    --color-nav-links: black;
+    --color-nav-active-link: lightblue;
+}
+[data-theme="dark"]{
+    --background-color-nav-links: rgb(63, 63, 63);
+    --color-nav-links: white;
+    --color-nav-active-link: black;
+}
 .nav_links{
     list-style: none;
     padding:0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: var(--background-color-nav-links);
     transform-origin: left;
-    transition: all 200ms ease-in-out ;
+    transition: transform 200ms ease-in-out ;
     overflow: hidden;
     position: fixed;
     left:50px;
     z-index: 101;
     height: 100vh;
     min-width: 250px;
-    /* resize: horizontal;
-    overflow: auto; */
-    transform: translateX(-300px)
+    transform: translateX(-300px);
+    color: var(--color-nav-links);
 }
 .nav_links li {
     padding: 5px 0px;
@@ -37,7 +46,7 @@
     text-decoration: none;
 }
 .nav_links a, .nav_links a:visited{
-    color: black;
+    color: var(--color-nav-links);    
     padding: 0 20px;
 }
 .explorer{
@@ -53,6 +62,7 @@ li ul{
 }
 .nav_links li:has(>.active){
     background-color: lightblue;
+    background-color: var(--color-nav-active-link);
 }
 
 .nav_social_links{
@@ -83,6 +93,8 @@ li ul{
 .folder li:nth-of-type(1){
     margin-top: 5px;
 }
+
+
 @media screen and (min-width:1200px){
     .nav_links{
         transform: scale(1,1);
