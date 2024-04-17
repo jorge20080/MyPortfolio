@@ -1,4 +1,5 @@
 import { Skill } from '../../utils/skills-helper';
+import Tag from '../Tag/Tag';
 import styles from './SkillsList.module.css';
 
 type Props = {
@@ -11,7 +12,9 @@ const SkillsList = ({title, skillsList}:Props) =>{
             <h3>{title}</h3>
             <ul>
                 {skillsList.map(skill=>{
-                    return <li key={skill.id}>{skill.name}</li>
+                    return <li> 
+                                <Tag key={skill.id} title={skill.name}/>
+                            </li>
                 })}
             </ul>
         </section>

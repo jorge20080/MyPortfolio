@@ -13,14 +13,7 @@
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
-.container.skills li{
-    padding: 5px 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: none;
-}
+

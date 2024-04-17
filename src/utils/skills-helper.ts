@@ -4,10 +4,13 @@ export const getTechSkills = () =>{
     return skillsList.filter(skill=>skill.type==="Technical");
 }
 export const getSoftSkills = () =>{
-    return skillsList.filter(skill=>skill.type=="Soft");
+    return skillsList.filter(skill=>skill.type==="Soft");
 }
 export const getOtherSkills = () =>{
-    return skillsList.filter(skill=>skill.type=="Other");
+    return skillsList.filter(skill=>skill.type==="Other");
+}
+export const getLanguages = ()=>{
+    return skillsList.filter(skill=>skill.type==="Language");
 }
 export type Skill = {
     id: number

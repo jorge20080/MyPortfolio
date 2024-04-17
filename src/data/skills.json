@@ -113,5 +113,20 @@
         "id":24,
         "name": "NextJS",
         "type": "Other"
+    },
+    {
+        "id":25,
+        "name": "Spanish",
+        "type": "Language"
+    },
+    {
+        "id":26,
+        "name": "English",
+        "type": "Language"
+    },
+    {
+        "id":27,
+        "name": "Bootstrap",
+        "type": "Technical"
     }
 ]
