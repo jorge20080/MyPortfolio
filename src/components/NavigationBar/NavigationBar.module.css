@@ -3,7 +3,7 @@
     padding:0;
     margin: 0;
     background-color: whitesmoke;
-    width: 0;
+    transform: scale(0,1);
     transform-origin: left;
     transition: all 250ms ease-in-out;
     overflow: hidden;
@@ -11,9 +11,12 @@
     left:50px;
     z-index: 101;
     height: 100vh;
+    min-width: 250px;
+    /* resize: horizontal;
+    overflow: auto; */
 }
 .nav_links li {
-    padding: 5px 20px;
+    padding: 5px 0px;
 }
 .nav_links a:before{
     content:'ᐸᐳ';
@@ -25,11 +28,10 @@
 .folder::before{
     content:'⌄';
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-inline: 10px;
 }
 .show_nav_links{
-    width: fit-content;
+    transform: scale(1,1);
 }
 .nav_links a{
     text-decoration: none;
@@ -70,13 +72,19 @@ li ul{
     display: flex;
     margin: 0;
 }
-.explorer ~ .folder{
+.folder{
     padding:0;
+    font-weight: 500;
+}
+.folder li{
+    font-weight: 300;
+}
+.folder li:nth-of-type(1){
+    margin-top: 5px;
 }
 @media screen and (min-width:1200px){
     .nav_links{
-        width: auto;
-        min-width: 250px;
+        transform: scale(1,1);
     }
     .menu{
         display: none;

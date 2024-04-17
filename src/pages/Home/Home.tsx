@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect';
 import Header from '../../components/Header/Header';
 
 const Home = () =>{
+    document.title="Jorge - Home";
     return (
         <>
             <main className={styles.container}>

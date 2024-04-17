@@ -44,33 +44,29 @@ const NavigationBar = () =>{
                 <li className={styles.explorer}>Explorer</li>
                 <li className={styles.folder}><span>JorgePortfolio</span>
                     <ul>
-                        <li className={styles.folder}><span>Pages</span>
-                            <ul>
-                                <li>
-                                    <NavLink 
-                                        to="/" 
-                                        className={({isActive}) => isActive? styles.active: undefined}
-                                    >home.html</NavLink>
-                                </li>
-                                <li>
-                                    <NavLink 
-                                        to="about" 
-                                        className={({isActive}) => isActive? styles.active: undefined}
-                                    >about.html</NavLink>
-                                </li>
-                                <li>
-                                    <NavLink 
-                                        to="projects" 
-                                        className={({isActive}) => isActive? styles.active: undefined}
-                                    >projects.html</NavLink>
-                                </li>
-                                <li>
-                                    <NavLink 
-                                        to="contact" 
-                                        className={({isActive}) => isActive? styles.active: undefined}
-                                    >contact.html</NavLink>
-                                </li>
-                            </ul>
+                        <li>
+                            <NavLink 
+                                to="/" 
+                                className={({isActive}) => isActive? styles.active: undefined}
+                            >home.html</NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to="about" 
+                                className={({isActive}) => isActive? styles.active: undefined}
+                            >about.html</NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to="projects" 
+                                className={({isActive}) => isActive? styles.active: undefined}
+                            >projects.html</NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to="contact" 
+                                className={({isActive}) => isActive? styles.active: undefined}
+                            >contact.html</NavLink>
                         </li>
                     </ul>
                 </li>

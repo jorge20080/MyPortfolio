@@ -8,6 +8,7 @@ import ExperienceList from "../../components/ExperienceList/ExperienceList";
 import SkillsList from "../../components/SkillsList/SkillsList";
 
 const About = () =>{
+    document.title="Jorge - About";
     let techSkills: Skill[] = getTechSkills();
     let softSkills: Skill[] = getSoftSkills();
     let otherSkills: Skill[] = getOtherSkills();
