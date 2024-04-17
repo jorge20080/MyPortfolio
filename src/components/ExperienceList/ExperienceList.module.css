@@ -1,0 +1,16 @@
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 30px;
+}
+.container h2{
+    color: #ff4400e6;
+}
+.container > ul{
+    list-style: none;
+    display: flex;
+    padding:0;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}

@@ -25,7 +25,7 @@ const Home = () =>{
                                     .deleteAll()
                                     .typeString("Backend Developer")
                                     .deleteAll()
-                                    .typeString("Automation Engineer")
+                                    .typeString("Software Automation Engineer")
                                     .deleteAll()
                                     .start()
                             }}
