@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "startDate": "Dec 2015",
+        "endDate": "Jan 2017",
+        "title":"Application Tech Support",
+        "company":"Kore",
+        "location":"Santo Domingo"
+    },
+    {
+        "id":2,
+        "startDate": "Jan 2017",
+        "endDate": "Jul 2019",
+        "title":"Software Quality Assurance Analyst",
+        "company":"Kore",
+        "location":"Santo Domingo"
+    },
+    {
+        "id":3,
+        "startDate": "Jul 2019",
+        "endDate": "Jul 2021",
+        "title":"Software Quality Assurance Engineer",
+        "company":"FlashParking",
+        "location":"Santo Domingo"
+    },
+    {
+        "id":4,
+        "startDate": "Jul 2021",
+        "endDate": "Preset",
+        "title":"Software Automation Engineer",
+        "company":"Megsoft",
+        "location":"Remote"
+    }
+]

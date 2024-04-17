@@ -1,0 +1,117 @@
+[
+    {
+        "id":1,
+        "name": "Tailwind",
+        "type": "Technical"
+    },
+    {
+        "id":2,
+        "name": "CSS",
+        "type": "Technical"
+    },
+    {
+        "id":4,
+        "name": "C#",
+        "type": "Technical"
+    },
+    {
+        "id":5,
+        "name": "React",
+        "type": "Technical"
+    },
+    {
+        "id":6,
+        "name": "NodeJs",
+        "type": "Technical"
+    },
+    {
+        "id":7,
+        "name": "SQL",
+        "type": "Technical"
+    },
+    {
+        "id":8,
+        "name": "MongoDb",
+        "type": "Technical"
+    },
+    {
+        "id":9,
+        "name": "Selenium",
+        "type": "Technical"
+    },
+    {
+        "id":10,
+        "name": "Git",
+        "type": "Technical"
+    },
+    {
+        "id":11,
+        "name": "NUnit",
+        "type": "Technical"
+    },
+    {
+        "id":12,
+        "name": "Redux",
+        "type": "Technical"
+    },
+    {
+        "id":13,
+        "name": "JQuery",
+        "type": "Technical"
+    },
+    {
+        "id":14,
+        "name": "Communication",
+        "type": "Soft"
+    },
+    {
+        "id":15,
+        "name": "Adaptability",
+        "type": "Soft"
+    },
+    {
+        "id":16,
+        "name": "Attention to Detail",
+        "type": "Soft"
+    },
+    {
+        "id":17,
+        "name": "Teamwork",
+        "type": "Soft"
+    },
+    {
+        "id":18,
+        "name": "Problem Solving",
+        "type": "Soft"
+    },
+    {
+        "id":19,
+        "name": "Angular",
+        "type": "Other"
+    },
+    {
+        "id":20,
+        "name": "Java",
+        "type": "Other"
+    },
+    {
+        "id":21,
+        "name": "PHP",
+        "type": "Other"
+    },
+    {
+        "id":22,
+        "name": "ASP NET",
+        "type": "Other"
+    },
+    {
+        "id":23,
+        "name": "TypeScript",
+        "type": "Technical"
+    },
+    {
+        "id":24,
+        "name": "NextJS",
+        "type": "Other"
+    }
+]

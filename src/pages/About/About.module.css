@@ -1,0 +1,50 @@
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 30px;
+}
+.container:nth-of-type(1){
+    margin-top: 100px;
+}
+.container h2{
+    color: #ff4400e6;
+}
+.container > ul{
+    list-style: none;
+    display: flex;
+    padding:0;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.container.skills section{
+    margin-block: 30px;
+}
+.container.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.container.skills li{
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(177, 177, 177);
+}
+.container.skills .tech_skill{
+    border: 1px solid darkcyan;
+    color: darkcyan;
+}
+.container.skills .soft_skill{
+    border: 1px solid slateblue;
+    color: slateblue;
+}
+.container.skills .other_skill{
+    border: 1px solid crimson;
+    color: crimson;
+}

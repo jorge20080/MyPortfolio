@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "startDate": "Oct 2012",
+        "endDate": "Aug 2012",
+        "degree":"Networking Techologist",
+        "institution":"ITLA",
+        "location":"Santo Domingo"
+    },
+    {
+        "id":2,
+        "startDate": "Oct 2014",
+        "endDate": "Jan 2021",
+        "degree":"System Engineering",
+        "institution":"UNICDA",
+        "location":"Santo Domingo"
+    },
+    {
+        "id":3,
+        "startDate": "Sept 2022",
+        "endDate": "April 2024",
+        "degree":"Diploma",
+        "institution":"St. Clair College",
+        "location":"Windsor, ON"
+    }
+]

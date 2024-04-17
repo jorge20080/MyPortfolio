@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    gap: 20px;
+    padding:10px 20px;
+    background-color: white;
+}
+.container span{
+    color: gray;
+}
