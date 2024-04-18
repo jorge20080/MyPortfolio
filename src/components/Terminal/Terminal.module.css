@@ -1,10 +1,12 @@
 :root{
     --terminal-background-color: white;
     --terminal-color: black;
+    --terminal-top-border: gainsboro;
 }
 [data-theme="dark"]{
     --terminal-background-color: rgb(34, 34, 34);
     --terminal-color: rgb(156, 156, 156);
+    --terminal-top-border: rgb(101, 101, 101);
 }
 .terminal{
     width: 100%;
@@ -12,7 +14,7 @@
     background-color: var(--terminal-background-color);
     position:fixed;
     bottom:0;
-    border-top: 1px solid gainsboro;
+    border-top: 1px solid var(--terminal-top-border);
     color: var(--terminal-color);
   }
   .terminal ul{
