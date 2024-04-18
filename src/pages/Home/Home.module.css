@@ -69,7 +69,7 @@
     color: var(--button-color);
     background-color: var(--button-background-color);
 }
-/* .content_container a::after{
+.content_container a::after{
     content: 'PDF';
     font-size: 14px;
     text-transform: lowercase;
@@ -83,7 +83,7 @@
     background-color: rgba(255, 68, 0, 0.9);
     border-radius: 50%;
     border: 1px solid gray;
-} */
+}
 .pdf_icon{
   position: absolute;
   top:-15px;
