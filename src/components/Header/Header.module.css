@@ -27,14 +27,49 @@
     padding: 5px;
     margin-left: 5px;
 }
-.dark{
-    position: absolute;
-    top:100px;
-    right:0;
-    margin: 20px;
-    width: 30px;
+
+.toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 60px;
     height: 30px;
-}
-.dark_btn:hover{
+    border-radius: 30px;
+    background-color: #333;
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    transition: all 0.5s ease-in;
     cursor: pointer;
-}
+    z-index: 1;
+  }
+  
+  /* Making a dot switch inside the Toggle Button */
+  .toggle::before {
+    content: "☀️";
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #EEE;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: all 0.5s ease-in;
+  }
+  
+  /* Changing toggle button background when checked */
+  .toggle:checked {
+    background: #ff4400e6;
+  }
+  
+  /* Changing dot switch color and moving to the right side when checked */
+  .toggle:checked::before {
+    background: #333;
+    left: 32px;
+    content:'☾';
+    color: white;
+  }

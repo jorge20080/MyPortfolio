@@ -1,3 +1,10 @@
+:root{
+    --h3-color: rgba(71, 71, 71, 0.9);
+}
+[data-theme="dark"]{
+    --h3-color: gainsboro;
+}
+
 .container{
     max-width: 1200px;
     margin-inline: auto;
@@ -11,7 +18,11 @@
     color: #ff4400e6;
     margin-inline: 30px;
 }
-
+.container h3{
+    color: var(--h3-color);
+    color: #ff4400e6;
+    font-weight: 500;
+}
 
 
 

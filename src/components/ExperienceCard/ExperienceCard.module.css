@@ -38,5 +38,5 @@
     margin: 10px;
 }
 .card svg{
-    fill: var(--card-color)
+    fill: var(--card-color);
 }
