@@ -1,10 +1,12 @@
 :root{
     --tag-background-color: rgba(255, 255, 255, 0.9);
     --tag-color: rgba(71, 71, 71, 0.9);
+    --tag-border: rgba(71, 71, 71, 0.9);
 }
 [data-theme="dark"]{
     --tag-background-color: rgba(71, 71, 71, 0.9);
     --tag-color: gainsboro;
+    --tag-border: gray;
 }
 .tag{
     padding: 5px 10px;
@@ -13,7 +15,7 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border: none;
     background-color: var(--tag-background-color);
-    border-top: 2px solid var(--tag-color);
+    border: 1px solid var(--tag-border);
     transition: transform 100ms ease-in-out;
     color: var(--tag-color);
 }
