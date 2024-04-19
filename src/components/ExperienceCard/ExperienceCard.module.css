@@ -1,3 +1,13 @@
+:root{
+    --card-background-color: rgba(255, 255, 255, 0.9);
+    --card-color: black;
+    --card-border: 1px solid rgba(0, 0, 0, 0.5); 
+}
+[data-theme="dark"]{
+    --card-background-color: rgba(71, 71, 71, 0.9);
+    --card-color: gainsboro;
+    --card-border: 1px solid gray;
+}
 .card span{
     display: block;
     width: 100;
@@ -5,23 +15,28 @@
     border-radius: 10px 10px 0 0;
     color: black;
     font-weight: 900;
-    border-bottom: 2px solid rgba(47, 47, 245, 0.5);
+    border-bottom: var(--card-border);
     margin-bottom: 5px;
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
+    color: var(--card-color);
 }
 .card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 220px;
     padding: 10px;
-    background-color: white;
-    border: 2px solid rgba(47, 47, 245, 0.5);
-    transition: all 100ms ease-in-out;
+    background-color: var(--card-background-color);
+    border: var(--card-border);
+    transition: transform 100ms ease-in-out;
+    color: var(--card-color);
 }
 .card:hover{
     transform: scale(1.2,1.2);
 }
 .card ul li{
     margin: 10px;
+}
+.card svg{
+    fill: var(--card-color)
 }
