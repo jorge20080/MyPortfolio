@@ -3,14 +3,14 @@
   --image-shadow-color: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --home-color: gray;
   --button-background-color: transparent;
-  --button-color: rgba(47, 47, 245, 0.7);
-  --button-border-color: rgba(47, 47, 245, 0.7);
+  --button-color: black;
+  --button-border-color: black;
   --home-secondary-color: rgba(255, 68, 0, 0.7);
 }
 [data-theme="dark"]{
   --image-shadow-color: rgb(72, 72, 72) 0px 5px 15px;
   --home-color: white;
-  --button-background-color: rgba(93, 93, 246);
+  --button-background-color: rgba(255, 255, 255, 0.2);
   --button-color: white;
   --button-border-color: rgb(138, 137, 137);
   --home-secondary-color: rgba(255, 68, 0, 1);
@@ -68,6 +68,7 @@
     border: 2px solid var(--button-border-color);
     color: var(--button-color);
     background-color: var(--button-background-color);
+    border-radius: 50px;
 }
 .content_container a::after{
     content: 'PDF';
