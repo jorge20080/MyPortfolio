@@ -13,7 +13,8 @@ const Projects = () =>{
             <ul className={styles.container}>
                 <li className={styles.card}>
                     <h3>Resume Builder</h3>
-                    <img src={img1} alt="Project Design" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.</p>
+                    {/* <img src={img1} alt="Project Design" /> */}
                     <div>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quas consequuntur id ipsam dolorum nisi, fugiat fugit saepe ab provident delectus sit debitis molestias tempora, facere officiis eveniet rerum et?</p> */}
                         <ul>
@@ -42,7 +43,8 @@ const Projects = () =>{
                 </li>
                 <li className={styles.card}>
                     <h3>We Build A Dream</h3>
-                    <img src={img2} alt="Project Design" />
+                    {/* <img src={img2} alt="Project Design" /> */}
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.</p>
                     <div>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quas consequuntur id ipsam dolorum nisi, fugiat fugit saepe ab provident delectus sit debitis molestias tempora, facere officiis eveniet rerum et?</p> */}
                         <ul>
@@ -70,8 +72,9 @@ const Projects = () =>{
                     </div>
                 </li>
                 <li className={styles.card}>
-                    <h3>We Build A Dream</h3>
-                    <img src={img2} alt="Project Design" />
+                    <h3>Todo App</h3>
+                    {/* <img src={img2} alt="Project Design" /> */}
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.</p>
                     <div>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quas consequuntur id ipsam dolorum nisi, fugiat fugit saepe ab provident delectus sit debitis molestias tempora, facere officiis eveniet rerum et?</p> */}
                         <ul>
@@ -99,8 +102,9 @@ const Projects = () =>{
                     </div>
                 </li>
                 <li className={styles.card}>
-                    <h3>Resume Builder</h3>
-                    <img src={img1} alt="Project Design" />
+                    <h3>Online Shop</h3>
+                    {/* <img src={img1} alt="Project Design" /> */}
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.</p>
                     <div>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quas consequuntur id ipsam dolorum nisi, fugiat fugit saepe ab provident delectus sit debitis molestias tempora, facere officiis eveniet rerum et?</p> */}
                         <ul>

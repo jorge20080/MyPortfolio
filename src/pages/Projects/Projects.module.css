@@ -8,25 +8,27 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    justify-content: center;
+}
+.container h3 ~ p {
+    padding-inline:20px;
 }
 .container ul{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-
 .container img{
     width: 100%;
 }
 .card{
     border: 1px solid gray;
-    background-color: rgba(220, 220, 220, 0.228);
-    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-width: 570px;
+    max-width: 350px;
+    background-color: white;
+    border-right: 5px solid gray;
+    box-sizing: border-box;
 }
 .card > div{
     padding: 10px;
@@ -44,12 +46,23 @@
     color: black;
 }
 .container h3{
-    color: white;
+    color: black;
     margin-block: 0;
-    width: 100%;
+    /* width: 100%; */
     font-weight: 300;
     padding: 5px 10px;
-    background-color: black;
+    /* background-color: black; */
+    border-bottom: 1px solid black;
+    margin-inline: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+    padding-block: 10px;
+}
+.links a >svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
 }
 .links > svg{
     margin-left: auto;
