@@ -37,6 +37,12 @@
     align-items:end;
     gap: 20px;
 }
+.card .links a{
+    text-decoration: none;
+}
+.card .links a:visited{
+    color: black;
+}
 .container h3{
     color: white;
     margin-block: 0;
