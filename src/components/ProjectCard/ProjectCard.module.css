@@ -1,0 +1,59 @@
+:root {
+    --project-card-background-color: white;
+    --project-card-color: black;
+}
+[data-theme="dark"]{
+    --project-card-background-color: rgba(71, 71, 71, 0.691);
+    --project-card-color: white;
+}
+
+.container h3 ~ p {
+    padding-inline:20px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 360px;
+    background-color: var(--project-card-background-color);
+    color: var(--project-card-color);
+    box-sizing: border-box;
+    position: relative;
+    padding:10px 20px;
+}
+.card > div{
+    padding: 10px;
+}
+.card .links{
+    margin-top: 10px;
+    display: flex;
+    align-items:end;
+    gap: 20px;
+}
+.card .links a{
+    text-decoration: none;
+}
+.card .links a:visited{
+    color: var(--project-card-color);
+}
+.card ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card h3{
+    margin-block: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    padding-block: 10px;
+    color: var(--project-card-color);
+    border-bottom: 1px solid var(--project-card-color);
+}
+.links a >svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    fill: var(--project-card-color);;
+}

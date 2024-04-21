@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Resume Builder",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.",
+        "technologies": [ "HTML", "CSS", "React", "TypeScript"],
+        "demoLink": "https://bucolic-speculoos-cfda6d.netlify.app/",
+        "gitHubRepo": "https://github.com/jorge20080/DevDemons/tree/main"
+    },
+    {
+        "title": "We Build A Dream",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.",
+        "technologies": [ "HTML", "CSS", "React", "TypeScript"],
+        "demoLink": "https://bucolic-speculoos-cfda6d.netlify.app/",
+        "gitHubRepo": "https://github.com/jorge20080/DevDemons/tree/main"
+    },
+    {
+        "title": "Todo App",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.",
+        "technologies": [ "HTML", "CSS", "React", "TypeScript"],
+        "demoLink": "https://bucolic-speculoos-cfda6d.netlify.app/",
+        "gitHubRepo": "https://github.com/jorge20080/DevDemons/tree/main"
+    },
+    {
+        "title": "Online Store",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero molestiae perspiciatis accusamus suscipit incidunt fugiat, iure aut eligendi dolorem quae mollitia pariatur nemo sit cupiditate eum, totam accusantium debitis.",
+        "technologies": [ "HTML", "CSS", "React", "TypeScript"],
+        "demoLink": "https://bucolic-speculoos-cfda6d.netlify.app/",
+        "gitHubRepo": "https://github.com/jorge20080/DevDemons/tree/main"
+    }
+]

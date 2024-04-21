@@ -1,69 +1,10 @@
 .container{
+    margin-top: 100px;
     max-width: 1200px;
     margin-inline: auto;
     padding-inline: 30px;
     margin-bottom: 50px;
-    margin-top: 100px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
 }
-.container h3 ~ p {
-    padding-inline:20px;
-}
-.container ul{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.container img{
-    width: 100%;
-}
-.card{
-    border: 1px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-width: 350px;
-    background-color: white;
-    border-right: 5px solid gray;
-    box-sizing: border-box;
-}
-.card > div{
-    padding: 10px;
-}
-.card .links{
-    margin-top: 10px;
-    display: flex;
-    align-items:end;
-    gap: 20px;
-}
-.card .links a{
-    text-decoration: none;
-}
-.card .links a:visited{
-    color: black;
-}
-.container h3{
-    color: black;
-    margin-block: 0;
-    /* width: 100%; */
-    font-weight: 300;
-    padding: 5px 10px;
-    /* background-color: black; */
-    border-bottom: 1px solid black;
-    margin-inline: 10px;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-weight: 500;
-    padding-block: 10px;
-}
-.links a >svg{
-    width: 16px;
-    height: 16px;
-    margin-right: 3px;
-}
-.links > svg{
-    margin-left: auto;
+.container h1{
+    color: orangered;
 }
