@@ -9,7 +9,7 @@ const Home = () =>{
     document.title="Jorge - Home";
     return (
         <>
-            <main className={styles.container}>
+            <div className={styles.container}>
                 <OpenedTabLayout name="home"/>
                 <Header />
                 <div className={styles.content_container}>
@@ -38,7 +38,7 @@ const Home = () =>{
                         <a href={pdf} target='_blank' >Resume</a>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     )
 }

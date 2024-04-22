@@ -15,7 +15,7 @@ const About = () =>{
     let languages: Skill[] = getLanguages();
 
     return (
-        <main>
+        <>
             <OpenedTabLayout name="about"/>
             <Header />
             <section className={styles.container}>
@@ -29,7 +29,7 @@ const About = () =>{
                 <SkillsList title="Other" skillsList={otherSkills}/>
                 <SkillsList title="Languages" skillsList={languages}/>
             </section>
-        </main>
+        </>
     )
 }
 export default About;
