@@ -3,12 +3,14 @@
     --input-background-color: white;
     --contact-color: black;
     --contact-border-color: gray;
+    --contact-shadow-color: gray;
 }
 [data-theme="dark"]{
     --contact-background-color: rgba(71, 71, 71, 0.7);
     --input-background-color: rgba(128, 128, 128, 0.4);
     --contact-color: white;
     --contact-border-color: rgb(163, 163, 163);
+    --contact-shadow-color: black;
 }
 .container{
     max-width: 1200px;
@@ -26,7 +28,7 @@
     border-radius: 20px;
     padding: 20px 30px;
     max-width: 400px;
-    box-shadow: gray 0px 20px 30px -10px;
+    box-shadow: var(--contact-shadow-color) 0px 20px 30px -10px;
 }
 .container input, .container textarea{
     display: block;
