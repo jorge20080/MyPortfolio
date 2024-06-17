@@ -6,7 +6,6 @@ import workList from '../../data/work-experience.json';
 import { getTechSkills, getOtherSkills, getSoftSkills, Skill, getLanguages } from "../../utils/skills-helper";
 import ExperienceList from "../../components/ExperienceList/ExperienceList";
 import SkillsList from "../../components/SkillsList/SkillsList";
-import profileImage from '../../assets/profilepic4.png';
 
 const About = () =>{
     document.title="Jorge - About";
