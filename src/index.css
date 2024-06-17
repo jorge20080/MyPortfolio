@@ -16,6 +16,7 @@ main{
   width: 100%;
   overflow-x: hidden;
   height: calc(100vh - 85px);
+  height: calc(100dvh - 85px);
   overflow-y: auto;
   position: relative;
   background-color: var(--background-block-joint);

@@ -1,5 +1,6 @@
 .container h2{
     color: #ff4400e6;
+    /* text-align: center; */
 }
 .container > ul{
     list-style: none;
@@ -7,4 +8,5 @@
     padding:0;
     gap: 30px;
     flex-wrap: wrap;
+    /* justify-content: center; */
 }

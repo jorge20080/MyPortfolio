@@ -1,16 +1,22 @@
 .container{
     max-width: 1200px;
     margin-inline: auto;
-    padding-inline: 30px;
+    padding-inline: 0px;
 }
+/* .container h3{
+    text-align: center;
+} */
 .container.skills section{
     margin-block: 30px;
 }
 .container.skills ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
 }
 

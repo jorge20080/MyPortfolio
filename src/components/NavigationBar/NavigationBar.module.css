@@ -19,7 +19,7 @@
     position: fixed;
     left:50px;
     z-index: 101;
-    height: 100vh;
+    height: 100dvh;
     min-width: 250px;
     transform: translateX(-300px);
     color: var(--color-nav-links);
@@ -79,7 +79,7 @@ li ul{
     cursor: pointer;
 }
 .nav_bar{
-    height: calc(100vh - 35px);
+    height: calc(100dvh - 35px);
     display: flex;
     margin: 0;
 }

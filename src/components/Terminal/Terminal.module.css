@@ -22,6 +22,7 @@
     list-style: none;
     gap: 20px;
     margin-block:10px;
+    padding-left: 10px;
   }
   .terminal ul li{
     text-transform: uppercase;
@@ -30,7 +31,7 @@
     border-bottom: 1px solid var(--terminal-color);
   }
   .terminal div{
-    padding-inline: 40px;
+    padding-inline: 10px;
   }
   .terminal div span{
     color: rgb(6, 123, 195);

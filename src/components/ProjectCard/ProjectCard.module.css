@@ -32,6 +32,7 @@
 }
 .card .links a{
     text-decoration: none;
+    color: var(--project-card-color);
 }
 .card .links a:visited{
     color: var(--project-card-color);
